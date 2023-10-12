@@ -1,0 +1,79 @@
+:root {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    background-color: red;
+}
+
+table {
+  margin: 10px;
+}
+td,
+.player {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  position: relative;
+}
+.player {
+  position: absolute;
+  top: -10px;
+}
+#board {
+  position: absolute;
+  left: 10px;
+  z-index: -200;
+  top: 0;
+}
+.activeBlue {
+  background-image: url(./images/players.png);
+  background-repeat: no-repeat;
+  background-size: 200%;
+  background-position: -50px -52px;
+}
+.activeRed {
+  background-image: url(./images/players.png);
+  background-repeat: no-repeat;
+  background-size: 200%;
+  background-position: 5px 1px;
+}
+.activeGreen {
+  background-image: url(./images/players.png);
+  background-repeat: no-repeat;
+  background-size: 200%;
+  background-position: 5px -52px;
+}
+.activeYellow {
+  background-image: url(./images/players.png);
+  background-repeat: no-repeat;
+  background-size: 200%;
+  background-position: -50px -1px;
+}
+#game {
+  position: absolute;
+  width: 50%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#game img {
+  width: 70px;
+  height: 70px;
+}
+
+.btn {
+  font-size: 15px;
+  background-color: white;
+  opacity: 50%;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.move{
+    transition-duration: 5s;
+}

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script src="./assets/script.js" defer></script>
+    <title>Ladder and snake snake</title>
+  </head>
+  <body>
+    <section id="board">
+      <img
+        src="./assets/images/snake and lader.png"
+        width="550px"
+        height="550px"
+        alt=""
+      />
+    </section>
+    <table>
+      <tr>
+        <td class="cell" id="cell100">1</td>
+        <td class="cell" id="cell99"></td>
+        <td class="cell" id="cell98"></td>
+        <td class="cell snake 78" id="cell97"></td>
+        <td class="cell" id="cell96"></td>
+        <td class="cell snake 56" id="cell95"></td>
+        <td class="cell" id="cell94"></td>
+        <td class="cell" id="cell93"></td>
+        <td class="cell" id="cell92"></td>
+        <td class="cell" id="cell91"></td>
+      </tr>
+      <tr>
+        <td class="cell" id="cell81"></td>
+        <td class="cell" id="cell82"></td>
+        <td class="cell" id="cell83"></td>
+        <td class="cell" id="cell84"></td>
+        <td class="cell" id="cell85"></td>
+        <td class="cell" id="cell86"></td>
+        <td class="cell" id="cell87"></td>
+        <td class="cell snake 24" id="cell88"></td>
+        <td class="cell" id="cell89"></td>
+        <td class="cell" id="cell90"></td>
+      </tr>
+      <tr>
+        <td class="cell ladder 80" id="cell80"></td>
+        <td class="cell" id="cell79"></td>
+        <td class="cell" id="cell78"></td>
+        <td class="cell" id="cell77"></td>
+        <td class="cell" id="cell76"></td>
+        <td class="cell" id="cell75"></td>
+        <td class="cell" id="cell74"></td>
+        <td class="cell" id="cell73"></td>
+        <td class="cell" id="cell72"></td>
+        <td class="cell ladder 92" id="cell71"></td>
+      </tr>
+      <tr>
+        <td class="cell" id="cell61"></td>
+        <td class="cell snake 18" id="cell62"></td>
+        <td class="cell" id="cell63"></td>
+        <td class="cell" id="cell64"></td>
+        <td class="cell" id="cell65"></td>
+        <td class="cell" id="cell66"></td>
+        <td class="cell" id="cell67"></td>
+        <td class="cell" id="cell68"></td>
+        <td class="cell" id="cell69"></td>
+        <td class="cell" id="cell70"></td>
+      </tr>
+      <tr>
+        <td class="cell" id="cell60"></td>
+        <td class="cell" id="cell59"></td>
+        <td class="cell" id="cell58"></td>
+        <td class="cell" id="cell57"></td>
+        <td class="cell" id="cell56"></td>
+        <td class="cell" id="cell55"></td>
+        <td class="cell" id="cell54"></td>
+        <td class="cell" id="cell53"></td>
+        <td class="cell" id="cell52"></td>
+        <td class="cell" id="cell51"></td>
+      </tr>
+      <tr>
+        <td class="cell" id="cell41"></td>
+        <td class="cell" id="cell42"></td>
+        <td class="cell" id="cell43"></td>
+        <td class="cell" id="cell44"></td>
+        <td class="cell" id="cell45"></td>
+        <td class="cell" id="cell46"></td>
+        <td class="cell" id="cell47"></td>
+        <td class="cell snake 26" id="cell48"></td>
+        <td class="cell" id="cell49"></td>
+        <td class="cell ladder 67" id="cell50"></td>
+      </tr>
+      <tr>
+        <td class="cell" id="cell40"></td>
+        <td class="cell" id="cell39"></td>
+        <td class="cell" id="cell38"></td>
+        <td class="cell" id="cell37"></td>
+        <td class="cell snake 6" id="cell36"></td>
+        <td class="cell" id="cell35"></td>
+        <td class="cell" id="cell34"></td>
+        <td class="cell" id="cell33"></td>
+        <td class="cell snake 10" id="cell32"></td>
+        <td class="cell" id="cell31"></td>
+      </tr>
+      <tr>
+        <td class="cell ladder 42" id="cell21"></td>
+        <td class="cell" id="cell22"></td>
+        <td class="cell" id="cell23"></td>
+        <td class="cell" id="cell24"></td>
+        <td class="cell" id="cell25"></td>
+        <td class="cell" id="cell26"></td>
+        <td class="cell" id="cell27"></td>
+        <td class="cell ladder76" id="cell28"></td>
+        <td class="cell" id="cell29"></td>
+        <td class="cell" id="cell30">3</td>
+      </tr>
+      <tr>
+        <td class="cell" id="cell20">2</td>
+        <td class="cell" id="cell19">1</td>
+        <td class="cell" id="cell18">1</td>
+        <td class="cell" id="cell17">1</td>
+        <td class="cell" id="cell16">1</td>
+        <td class="cell" id="cell15">1</td>
+        <td class="cell" id="cell14">1</td>
+        <td class="cell" id="cell13">1</td>
+        <td class="cell" id="cell12">1</td>
+        <td class="cell" id="cell11"></td>
+      </tr>
+      <tr>
+        <td class="cell ladder 38" id="cell1"></td>
+        <td class="cell" id="cell2"></td>
+        <td class="cell" id="cell3"></td>
+        <td class="cell ladder 14" id="cell4"></td>
+        <td class="cell" id="cell5"></td>
+        <td class="cell" id="cell6"></td>
+        <td class="cell" id="cell7"></td>
+        <td class="cell ladder 30" id="cell8"></td>
+        <td class="cell" id="cell9"></td>
+        <td class="cell" id="cell10">1</td>
+      </tr>
+    </table>
+    <section id="cell0">
+      <section class="player activeBlue"></section>
+      <section class="player activeGreen"></section>
+      <section class="player activeRed"></section>
+      <section class="player activeYellow"></section>
+    </section>
+    <section id="game">
+      <button id="new-game" class="btn">&#10070; NEW GAME (N)</button>
+      <img src="assets/Images/dice-1.png" alt="Dice 1" id="dice1" />
+      <button id="roll-dice" class="btn">
+        <i class="small material-icons"> casino</i> ROLL DICE (R)
+      </button>
+      <section class="btn">
+        Current Player
+        <section id="current-player">Red</section>
+      </section>
+    </section>
+  </body>
+</html>
